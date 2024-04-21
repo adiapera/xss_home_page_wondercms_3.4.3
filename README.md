@@ -5,8 +5,10 @@
 
 **Description:** Cross-site scripting (XSS) vulnerability in the HOME Page section of WonderCMS 3.4.3 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into all fields.
 
+**CVE:** CVE-2024-32341.
+
 ## PoC
-### HOME Page
+### HOME Page (CVE-2024-32341)
 1. Enter to HOME page and in any parameter set the payload:
 
 ![image](https://github.com/adiapera/xss_home_page_wondercms_3.4.3/assets/165512291/8af7919b-a0c9-4be8-b5c5-74246daa5d38)
